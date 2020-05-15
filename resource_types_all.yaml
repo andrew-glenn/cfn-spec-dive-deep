@@ -1,0 +1,1063 @@
+Resources:
+  AWSACMPCACertificate:
+    Type: AWS::ACMPCA::Certificate
+  AWSACMPCACertificateAuthority:
+    Type: AWS::ACMPCA::CertificateAuthority
+  AWSACMPCACertificateAuthorityActivation:
+    Type: AWS::ACMPCA::CertificateAuthorityActivation
+  AWSAccessAnalyzerAnalyzer:
+    Type: AWS::AccessAnalyzer::Analyzer
+  AWSAmazonMQBroker:
+    Type: AWS::AmazonMQ::Broker
+  AWSAmazonMQConfiguration:
+    Type: AWS::AmazonMQ::Configuration
+  AWSAmazonMQConfigurationAssociation:
+    Type: AWS::AmazonMQ::ConfigurationAssociation
+  AWSAmplifyApp:
+    Type: AWS::Amplify::App
+  AWSAmplifyBranch:
+    Type: AWS::Amplify::Branch
+  AWSAmplifyDomain:
+    Type: AWS::Amplify::Domain
+  AWSApiGatewayAccount:
+    Type: AWS::ApiGateway::Account
+  AWSApiGatewayApiKey:
+    Type: AWS::ApiGateway::ApiKey
+  AWSApiGatewayAuthorizer:
+    Type: AWS::ApiGateway::Authorizer
+  AWSApiGatewayBasePathMapping:
+    Type: AWS::ApiGateway::BasePathMapping
+  AWSApiGatewayClientCertificate:
+    Type: AWS::ApiGateway::ClientCertificate
+  AWSApiGatewayDeployment:
+    Type: AWS::ApiGateway::Deployment
+  AWSApiGatewayDocumentationPart:
+    Type: AWS::ApiGateway::DocumentationPart
+  AWSApiGatewayDocumentationVersion:
+    Type: AWS::ApiGateway::DocumentationVersion
+  AWSApiGatewayDomainName:
+    Type: AWS::ApiGateway::DomainName
+  AWSApiGatewayGatewayResponse:
+    Type: AWS::ApiGateway::GatewayResponse
+  AWSApiGatewayMethod:
+    Type: AWS::ApiGateway::Method
+  AWSApiGatewayModel:
+    Type: AWS::ApiGateway::Model
+  AWSApiGatewayRequestValidator:
+    Type: AWS::ApiGateway::RequestValidator
+  AWSApiGatewayResource:
+    Type: AWS::ApiGateway::Resource
+  AWSApiGatewayRestApi:
+    Type: AWS::ApiGateway::RestApi
+  AWSApiGatewayStage:
+    Type: AWS::ApiGateway::Stage
+  AWSApiGatewayUsagePlan:
+    Type: AWS::ApiGateway::UsagePlan
+  AWSApiGatewayUsagePlanKey:
+    Type: AWS::ApiGateway::UsagePlanKey
+  AWSApiGatewayV2Api:
+    Type: AWS::ApiGatewayV2::Api
+  AWSApiGatewayV2ApiMapping:
+    Type: AWS::ApiGatewayV2::ApiMapping
+  AWSApiGatewayV2Authorizer:
+    Type: AWS::ApiGatewayV2::Authorizer
+  AWSApiGatewayV2Deployment:
+    Type: AWS::ApiGatewayV2::Deployment
+  AWSApiGatewayV2DomainName:
+    Type: AWS::ApiGatewayV2::DomainName
+  AWSApiGatewayV2Integration:
+    Type: AWS::ApiGatewayV2::Integration
+  AWSApiGatewayV2IntegrationResponse:
+    Type: AWS::ApiGatewayV2::IntegrationResponse
+  AWSApiGatewayV2Model:
+    Type: AWS::ApiGatewayV2::Model
+  AWSApiGatewayV2Route:
+    Type: AWS::ApiGatewayV2::Route
+  AWSApiGatewayV2RouteResponse:
+    Type: AWS::ApiGatewayV2::RouteResponse
+  AWSApiGatewayV2Stage:
+    Type: AWS::ApiGatewayV2::Stage
+  AWSApiGatewayVpcLink:
+    Type: AWS::ApiGateway::VpcLink
+  AWSAppConfigApplication:
+    Type: AWS::AppConfig::Application
+  AWSAppConfigConfigurationProfile:
+    Type: AWS::AppConfig::ConfigurationProfile
+  AWSAppConfigDeployment:
+    Type: AWS::AppConfig::Deployment
+  AWSAppConfigDeploymentStrategy:
+    Type: AWS::AppConfig::DeploymentStrategy
+  AWSAppConfigEnvironment:
+    Type: AWS::AppConfig::Environment
+  AWSAppMeshMesh:
+    Type: AWS::AppMesh::Mesh
+  AWSAppMeshRoute:
+    Type: AWS::AppMesh::Route
+  AWSAppMeshVirtualNode:
+    Type: AWS::AppMesh::VirtualNode
+  AWSAppMeshVirtualRouter:
+    Type: AWS::AppMesh::VirtualRouter
+  AWSAppMeshVirtualService:
+    Type: AWS::AppMesh::VirtualService
+  AWSAppStreamDirectoryConfig:
+    Type: AWS::AppStream::DirectoryConfig
+  AWSAppStreamFleet:
+    Type: AWS::AppStream::Fleet
+  AWSAppStreamImageBuilder:
+    Type: AWS::AppStream::ImageBuilder
+  AWSAppStreamStack:
+    Type: AWS::AppStream::Stack
+  AWSAppStreamStackFleetAssociation:
+    Type: AWS::AppStream::StackFleetAssociation
+  AWSAppStreamStackUserAssociation:
+    Type: AWS::AppStream::StackUserAssociation
+  AWSAppStreamUser:
+    Type: AWS::AppStream::User
+  AWSAppSyncApiCache:
+    Type: AWS::AppSync::ApiCache
+  AWSAppSyncApiKey:
+    Type: AWS::AppSync::ApiKey
+  AWSAppSyncDataSource:
+    Type: AWS::AppSync::DataSource
+  AWSAppSyncFunctionConfiguration:
+    Type: AWS::AppSync::FunctionConfiguration
+  AWSAppSyncGraphQLApi:
+    Type: AWS::AppSync::GraphQLApi
+  AWSAppSyncGraphQLSchema:
+    Type: AWS::AppSync::GraphQLSchema
+  AWSAppSyncResolver:
+    Type: AWS::AppSync::Resolver
+  AWSApplicationAutoScalingScalableTarget:
+    Type: AWS::ApplicationAutoScaling::ScalableTarget
+  AWSApplicationAutoScalingScalingPolicy:
+    Type: AWS::ApplicationAutoScaling::ScalingPolicy
+  AWSAthenaNamedQuery:
+    Type: AWS::Athena::NamedQuery
+  AWSAthenaWorkGroup:
+    Type: AWS::Athena::WorkGroup
+  AWSAutoScalingAutoScalingGroup:
+    Type: AWS::AutoScaling::AutoScalingGroup
+  AWSAutoScalingLaunchConfiguration:
+    Type: AWS::AutoScaling::LaunchConfiguration
+  AWSAutoScalingLifecycleHook:
+    Type: AWS::AutoScaling::LifecycleHook
+  AWSAutoScalingPlansScalingPlan:
+    Type: AWS::AutoScalingPlans::ScalingPlan
+  AWSAutoScalingScalingPolicy:
+    Type: AWS::AutoScaling::ScalingPolicy
+  AWSAutoScalingScheduledAction:
+    Type: AWS::AutoScaling::ScheduledAction
+  AWSBackupBackupPlan:
+    Type: AWS::Backup::BackupPlan
+  AWSBackupBackupSelection:
+    Type: AWS::Backup::BackupSelection
+  AWSBackupBackupVault:
+    Type: AWS::Backup::BackupVault
+  AWSBatchComputeEnvironment:
+    Type: AWS::Batch::ComputeEnvironment
+  AWSBatchJobDefinition:
+    Type: AWS::Batch::JobDefinition
+  AWSBatchJobQueue:
+    Type: AWS::Batch::JobQueue
+  AWSBudgetsBudget:
+    Type: AWS::Budgets::Budget
+  AWSCDKMetadata:
+    Type: AWS::CDK::Metadata
+  AWSCECostCategory:
+    Type: AWS::CE::CostCategory
+  AWSCassandraKeyspace:
+    Type: AWS::Cassandra::Keyspace
+  AWSCassandraTable:
+    Type: AWS::Cassandra::Table
+  AWSCertificateManagerCertificate:
+    Type: AWS::CertificateManager::Certificate
+  AWSChatbotSlackChannelConfiguration:
+    Type: AWS::Chatbot::SlackChannelConfiguration
+  AWSCloud9EnvironmentEC2:
+    Type: AWS::Cloud9::EnvironmentEC2
+  AWSCloudFormationCustomResource:
+    Type: AWS::CloudFormation::CustomResource
+  AWSCloudFormationMacro:
+    Type: AWS::CloudFormation::Macro
+  AWSCloudFormationStack:
+    Type: AWS::CloudFormation::Stack
+  AWSCloudFormationWaitCondition:
+    Type: AWS::CloudFormation::WaitCondition
+  AWSCloudFormationWaitConditionHandle:
+    Type: AWS::CloudFormation::WaitConditionHandle
+  AWSCloudFrontCloudFrontOriginAccessIdentity:
+    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+  AWSCloudFrontDistribution:
+    Type: AWS::CloudFront::Distribution
+  AWSCloudFrontStreamingDistribution:
+    Type: AWS::CloudFront::StreamingDistribution
+  AWSCloudTrailTrail:
+    Type: AWS::CloudTrail::Trail
+  AWSCloudWatchAlarm:
+    Type: AWS::CloudWatch::Alarm
+  AWSCloudWatchAnomalyDetector:
+    Type: AWS::CloudWatch::AnomalyDetector
+  AWSCloudWatchCompositeAlarm:
+    Type: AWS::CloudWatch::CompositeAlarm
+  AWSCloudWatchDashboard:
+    Type: AWS::CloudWatch::Dashboard
+  AWSCloudWatchInsightRule:
+    Type: AWS::CloudWatch::InsightRule
+  AWSCodeBuildProject:
+    Type: AWS::CodeBuild::Project
+  AWSCodeBuildReportGroup:
+    Type: AWS::CodeBuild::ReportGroup
+  AWSCodeBuildSourceCredential:
+    Type: AWS::CodeBuild::SourceCredential
+  AWSCodeCommitRepository:
+    Type: AWS::CodeCommit::Repository
+  AWSCodeDeployApplication:
+    Type: AWS::CodeDeploy::Application
+  AWSCodeDeployDeploymentConfig:
+    Type: AWS::CodeDeploy::DeploymentConfig
+  AWSCodeDeployDeploymentGroup:
+    Type: AWS::CodeDeploy::DeploymentGroup
+  AWSCodeGuruProfilerProfilingGroup:
+    Type: AWS::CodeGuruProfiler::ProfilingGroup
+  AWSCodePipelineCustomActionType:
+    Type: AWS::CodePipeline::CustomActionType
+  AWSCodePipelinePipeline:
+    Type: AWS::CodePipeline::Pipeline
+  AWSCodePipelineWebhook:
+    Type: AWS::CodePipeline::Webhook
+  AWSCodeStarConnectionsConnection:
+    Type: AWS::CodeStarConnections::Connection
+  AWSCodeStarGitHubRepository:
+    Type: AWS::CodeStar::GitHubRepository
+  AWSCodeStarNotificationsNotificationRule:
+    Type: AWS::CodeStarNotifications::NotificationRule
+  AWSCognitoIdentityPool:
+    Type: AWS::Cognito::IdentityPool
+  AWSCognitoIdentityPoolRoleAttachment:
+    Type: AWS::Cognito::IdentityPoolRoleAttachment
+  AWSCognitoUserPool:
+    Type: AWS::Cognito::UserPool
+  AWSCognitoUserPoolClient:
+    Type: AWS::Cognito::UserPoolClient
+  AWSCognitoUserPoolDomain:
+    Type: AWS::Cognito::UserPoolDomain
+  AWSCognitoUserPoolGroup:
+    Type: AWS::Cognito::UserPoolGroup
+  AWSCognitoUserPoolIdentityProvider:
+    Type: AWS::Cognito::UserPoolIdentityProvider
+  AWSCognitoUserPoolResourceServer:
+    Type: AWS::Cognito::UserPoolResourceServer
+  AWSCognitoUserPoolRiskConfigurationAttachment:
+    Type: AWS::Cognito::UserPoolRiskConfigurationAttachment
+  AWSCognitoUserPoolUICustomizationAttachment:
+    Type: AWS::Cognito::UserPoolUICustomizationAttachment
+  AWSCognitoUserPoolUser:
+    Type: AWS::Cognito::UserPoolUser
+  AWSCognitoUserPoolUserToGroupAttachment:
+    Type: AWS::Cognito::UserPoolUserToGroupAttachment
+  AWSConfigAggregationAuthorization:
+    Type: AWS::Config::AggregationAuthorization
+  AWSConfigConfigRule:
+    Type: AWS::Config::ConfigRule
+  AWSConfigConfigurationAggregator:
+    Type: AWS::Config::ConfigurationAggregator
+  AWSConfigConfigurationRecorder:
+    Type: AWS::Config::ConfigurationRecorder
+  AWSConfigConformancePack:
+    Type: AWS::Config::ConformancePack
+  AWSConfigDeliveryChannel:
+    Type: AWS::Config::DeliveryChannel
+  AWSConfigOrganizationConfigRule:
+    Type: AWS::Config::OrganizationConfigRule
+  AWSConfigOrganizationConformancePack:
+    Type: AWS::Config::OrganizationConformancePack
+  AWSConfigRemediationConfiguration:
+    Type: AWS::Config::RemediationConfiguration
+  AWSDAXCluster:
+    Type: AWS::DAX::Cluster
+  AWSDAXParameterGroup:
+    Type: AWS::DAX::ParameterGroup
+  AWSDAXSubnetGroup:
+    Type: AWS::DAX::SubnetGroup
+  AWSDLMLifecyclePolicy:
+    Type: AWS::DLM::LifecyclePolicy
+  AWSDMSCertificate:
+    Type: AWS::DMS::Certificate
+  AWSDMSEndpoint:
+    Type: AWS::DMS::Endpoint
+  AWSDMSEventSubscription:
+    Type: AWS::DMS::EventSubscription
+  AWSDMSReplicationInstance:
+    Type: AWS::DMS::ReplicationInstance
+  AWSDMSReplicationSubnetGroup:
+    Type: AWS::DMS::ReplicationSubnetGroup
+  AWSDMSReplicationTask:
+    Type: AWS::DMS::ReplicationTask
+  AWSDataPipelinePipeline:
+    Type: AWS::DataPipeline::Pipeline
+  AWSDetectiveGraph:
+    Type: AWS::Detective::Graph
+  AWSDetectiveMemberInvitation:
+    Type: AWS::Detective::MemberInvitation
+  AWSDirectoryServiceMicrosoftAD:
+    Type: AWS::DirectoryService::MicrosoftAD
+  AWSDirectoryServiceSimpleAD:
+    Type: AWS::DirectoryService::SimpleAD
+  AWSDocDBDBCluster:
+    Type: AWS::DocDB::DBCluster
+  AWSDocDBDBClusterParameterGroup:
+    Type: AWS::DocDB::DBClusterParameterGroup
+  AWSDocDBDBInstance:
+    Type: AWS::DocDB::DBInstance
+  AWSDocDBDBSubnetGroup:
+    Type: AWS::DocDB::DBSubnetGroup
+  AWSDynamoDBTable:
+    Type: AWS::DynamoDB::Table
+  AWSEC2CapacityReservation:
+    Type: AWS::EC2::CapacityReservation
+  AWSEC2ClientVpnAuthorizationRule:
+    Type: AWS::EC2::ClientVpnAuthorizationRule
+  AWSEC2ClientVpnEndpoint:
+    Type: AWS::EC2::ClientVpnEndpoint
+  AWSEC2ClientVpnRoute:
+    Type: AWS::EC2::ClientVpnRoute
+  AWSEC2ClientVpnTargetNetworkAssociation:
+    Type: AWS::EC2::ClientVpnTargetNetworkAssociation
+  AWSEC2CustomerGateway:
+    Type: AWS::EC2::CustomerGateway
+  AWSEC2DHCPOptions:
+    Type: AWS::EC2::DHCPOptions
+  AWSEC2EC2Fleet:
+    Type: AWS::EC2::EC2Fleet
+  AWSEC2EIP:
+    Type: AWS::EC2::EIP
+  AWSEC2EIPAssociation:
+    Type: AWS::EC2::EIPAssociation
+  AWSEC2EgressOnlyInternetGateway:
+    Type: AWS::EC2::EgressOnlyInternetGateway
+  AWSEC2FlowLog:
+    Type: AWS::EC2::FlowLog
+  AWSEC2GatewayRouteTableAssociation:
+    Type: AWS::EC2::GatewayRouteTableAssociation
+  AWSEC2Host:
+    Type: AWS::EC2::Host
+  AWSEC2Instance:
+    Type: AWS::EC2::Instance
+  AWSEC2InternetGateway:
+    Type: AWS::EC2::InternetGateway
+  AWSEC2LaunchTemplate:
+    Type: AWS::EC2::LaunchTemplate
+  AWSEC2LocalGatewayRoute:
+    Type: AWS::EC2::LocalGatewayRoute
+  AWSEC2LocalGatewayRouteTableVPCAssociation:
+    Type: AWS::EC2::LocalGatewayRouteTableVPCAssociation
+  AWSEC2NatGateway:
+    Type: AWS::EC2::NatGateway
+  AWSEC2NetworkAcl:
+    Type: AWS::EC2::NetworkAcl
+  AWSEC2NetworkAclEntry:
+    Type: AWS::EC2::NetworkAclEntry
+  AWSEC2NetworkInterface:
+    Type: AWS::EC2::NetworkInterface
+  AWSEC2NetworkInterfaceAttachment:
+    Type: AWS::EC2::NetworkInterfaceAttachment
+  AWSEC2NetworkInterfacePermission:
+    Type: AWS::EC2::NetworkInterfacePermission
+  AWSEC2PlacementGroup:
+    Type: AWS::EC2::PlacementGroup
+  AWSEC2Route:
+    Type: AWS::EC2::Route
+  AWSEC2RouteTable:
+    Type: AWS::EC2::RouteTable
+  AWSEC2SecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+  AWSEC2SecurityGroupEgress:
+    Type: AWS::EC2::SecurityGroupEgress
+  AWSEC2SecurityGroupIngress:
+    Type: AWS::EC2::SecurityGroupIngress
+  AWSEC2SpotFleet:
+    Type: AWS::EC2::SpotFleet
+  AWSEC2Subnet:
+    Type: AWS::EC2::Subnet
+  AWSEC2SubnetCidrBlock:
+    Type: AWS::EC2::SubnetCidrBlock
+  AWSEC2SubnetNetworkAclAssociation:
+    Type: AWS::EC2::SubnetNetworkAclAssociation
+  AWSEC2SubnetRouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+  AWSEC2TrafficMirrorFilter:
+    Type: AWS::EC2::TrafficMirrorFilter
+  AWSEC2TrafficMirrorFilterRule:
+    Type: AWS::EC2::TrafficMirrorFilterRule
+  AWSEC2TrafficMirrorSession:
+    Type: AWS::EC2::TrafficMirrorSession
+  AWSEC2TrafficMirrorTarget:
+    Type: AWS::EC2::TrafficMirrorTarget
+  AWSEC2TransitGateway:
+    Type: AWS::EC2::TransitGateway
+  AWSEC2TransitGatewayAttachment:
+    Type: AWS::EC2::TransitGatewayAttachment
+  AWSEC2TransitGatewayRoute:
+    Type: AWS::EC2::TransitGatewayRoute
+  AWSEC2TransitGatewayRouteTable:
+    Type: AWS::EC2::TransitGatewayRouteTable
+  AWSEC2TransitGatewayRouteTableAssociation:
+    Type: AWS::EC2::TransitGatewayRouteTableAssociation
+  AWSEC2TransitGatewayRouteTablePropagation:
+    Type: AWS::EC2::TransitGatewayRouteTablePropagation
+  AWSEC2VPC:
+    Type: AWS::EC2::VPC
+  AWSEC2VPCCidrBlock:
+    Type: AWS::EC2::VPCCidrBlock
+  AWSEC2VPCDHCPOptionsAssociation:
+    Type: AWS::EC2::VPCDHCPOptionsAssociation
+  AWSEC2VPCEndpoint:
+    Type: AWS::EC2::VPCEndpoint
+  AWSEC2VPCEndpointConnectionNotification:
+    Type: AWS::EC2::VPCEndpointConnectionNotification
+  AWSEC2VPCEndpointService:
+    Type: AWS::EC2::VPCEndpointService
+  AWSEC2VPCEndpointServicePermissions:
+    Type: AWS::EC2::VPCEndpointServicePermissions
+  AWSEC2VPCGatewayAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+  AWSEC2VPCPeeringConnection:
+    Type: AWS::EC2::VPCPeeringConnection
+  AWSEC2VPNConnection:
+    Type: AWS::EC2::VPNConnection
+  AWSEC2VPNConnectionRoute:
+    Type: AWS::EC2::VPNConnectionRoute
+  AWSEC2VPNGateway:
+    Type: AWS::EC2::VPNGateway
+  AWSEC2VPNGatewayRoutePropagation:
+    Type: AWS::EC2::VPNGatewayRoutePropagation
+  AWSEC2Volume:
+    Type: AWS::EC2::Volume
+  AWSEC2VolumeAttachment:
+    Type: AWS::EC2::VolumeAttachment
+  AWSECRRepository:
+    Type: AWS::ECR::Repository
+  AWSECSCluster:
+    Type: AWS::ECS::Cluster
+  AWSECSPrimaryTaskSet:
+    Type: AWS::ECS::PrimaryTaskSet
+  AWSECSService:
+    Type: AWS::ECS::Service
+  AWSECSTaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+  AWSECSTaskSet:
+    Type: AWS::ECS::TaskSet
+  AWSEFSFileSystem:
+    Type: AWS::EFS::FileSystem
+  AWSEFSMountTarget:
+    Type: AWS::EFS::MountTarget
+  AWSEKSCluster:
+    Type: AWS::EKS::Cluster
+  AWSEKSNodegroup:
+    Type: AWS::EKS::Nodegroup
+  AWSEMRCluster:
+    Type: AWS::EMR::Cluster
+  AWSEMRInstanceFleetConfig:
+    Type: AWS::EMR::InstanceFleetConfig
+  AWSEMRInstanceGroupConfig:
+    Type: AWS::EMR::InstanceGroupConfig
+  AWSEMRSecurityConfiguration:
+    Type: AWS::EMR::SecurityConfiguration
+  AWSEMRStep:
+    Type: AWS::EMR::Step
+  AWSElastiCacheCacheCluster:
+    Type: AWS::ElastiCache::CacheCluster
+  AWSElastiCacheParameterGroup:
+    Type: AWS::ElastiCache::ParameterGroup
+  AWSElastiCacheReplicationGroup:
+    Type: AWS::ElastiCache::ReplicationGroup
+  AWSElastiCacheSecurityGroup:
+    Type: AWS::ElastiCache::SecurityGroup
+  AWSElastiCacheSecurityGroupIngress:
+    Type: AWS::ElastiCache::SecurityGroupIngress
+  AWSElastiCacheSubnetGroup:
+    Type: AWS::ElastiCache::SubnetGroup
+  AWSElasticBeanstalkApplication:
+    Type: AWS::ElasticBeanstalk::Application
+  AWSElasticBeanstalkApplicationVersion:
+    Type: AWS::ElasticBeanstalk::ApplicationVersion
+  AWSElasticBeanstalkConfigurationTemplate:
+    Type: AWS::ElasticBeanstalk::ConfigurationTemplate
+  AWSElasticBeanstalkEnvironment:
+    Type: AWS::ElasticBeanstalk::Environment
+  AWSElasticLoadBalancingLoadBalancer:
+    Type: AWS::ElasticLoadBalancing::LoadBalancer
+  AWSElasticLoadBalancingV2Listener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+  AWSElasticLoadBalancingV2ListenerCertificate:
+    Type: AWS::ElasticLoadBalancingV2::ListenerCertificate
+  AWSElasticLoadBalancingV2ListenerRule:
+    Type: AWS::ElasticLoadBalancingV2::ListenerRule
+  AWSElasticLoadBalancingV2LoadBalancer:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+  AWSElasticLoadBalancingV2TargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+  AWSElasticsearchDomain:
+    Type: AWS::Elasticsearch::Domain
+  AWSEventSchemasDiscoverer:
+    Type: AWS::EventSchemas::Discoverer
+  AWSEventSchemasRegistry:
+    Type: AWS::EventSchemas::Registry
+  AWSEventSchemasSchema:
+    Type: AWS::EventSchemas::Schema
+  AWSEventsEventBus:
+    Type: AWS::Events::EventBus
+  AWSEventsEventBusPolicy:
+    Type: AWS::Events::EventBusPolicy
+  AWSEventsRule:
+    Type: AWS::Events::Rule
+  AWSFMSNotificationChannel:
+    Type: AWS::FMS::NotificationChannel
+  AWSFMSPolicy:
+    Type: AWS::FMS::Policy
+  AWSFSxFileSystem:
+    Type: AWS::FSx::FileSystem
+  AWSGameLiftAlias:
+    Type: AWS::GameLift::Alias
+  AWSGameLiftBuild:
+    Type: AWS::GameLift::Build
+  AWSGameLiftFleet:
+    Type: AWS::GameLift::Fleet
+  AWSGameLiftGameSessionQueue:
+    Type: AWS::GameLift::GameSessionQueue
+  AWSGameLiftMatchmakingConfiguration:
+    Type: AWS::GameLift::MatchmakingConfiguration
+  AWSGameLiftMatchmakingRuleSet:
+    Type: AWS::GameLift::MatchmakingRuleSet
+  AWSGameLiftScript:
+    Type: AWS::GameLift::Script
+  AWSGlueClassifier:
+    Type: AWS::Glue::Classifier
+  AWSGlueConnection:
+    Type: AWS::Glue::Connection
+  AWSGlueCrawler:
+    Type: AWS::Glue::Crawler
+  AWSGlueDataCatalogEncryptionSettings:
+    Type: AWS::Glue::DataCatalogEncryptionSettings
+  AWSGlueDatabase:
+    Type: AWS::Glue::Database
+  AWSGlueDevEndpoint:
+    Type: AWS::Glue::DevEndpoint
+  AWSGlueJob:
+    Type: AWS::Glue::Job
+  AWSGlueMLTransform:
+    Type: AWS::Glue::MLTransform
+  AWSGluePartition:
+    Type: AWS::Glue::Partition
+  AWSGlueSecurityConfiguration:
+    Type: AWS::Glue::SecurityConfiguration
+  AWSGlueTable:
+    Type: AWS::Glue::Table
+  AWSGlueTrigger:
+    Type: AWS::Glue::Trigger
+  AWSGlueWorkflow:
+    Type: AWS::Glue::Workflow
+  AWSGreengrassConnectorDefinition:
+    Type: AWS::Greengrass::ConnectorDefinition
+  AWSGreengrassConnectorDefinitionVersion:
+    Type: AWS::Greengrass::ConnectorDefinitionVersion
+  AWSGreengrassCoreDefinition:
+    Type: AWS::Greengrass::CoreDefinition
+  AWSGreengrassCoreDefinitionVersion:
+    Type: AWS::Greengrass::CoreDefinitionVersion
+  AWSGreengrassDeviceDefinition:
+    Type: AWS::Greengrass::DeviceDefinition
+  AWSGreengrassDeviceDefinitionVersion:
+    Type: AWS::Greengrass::DeviceDefinitionVersion
+  AWSGreengrassFunctionDefinition:
+    Type: AWS::Greengrass::FunctionDefinition
+  AWSGreengrassFunctionDefinitionVersion:
+    Type: AWS::Greengrass::FunctionDefinitionVersion
+  AWSGreengrassGroup:
+    Type: AWS::Greengrass::Group
+  AWSGreengrassGroupVersion:
+    Type: AWS::Greengrass::GroupVersion
+  AWSGreengrassLoggerDefinition:
+    Type: AWS::Greengrass::LoggerDefinition
+  AWSGreengrassLoggerDefinitionVersion:
+    Type: AWS::Greengrass::LoggerDefinitionVersion
+  AWSGreengrassResourceDefinition:
+    Type: AWS::Greengrass::ResourceDefinition
+  AWSGreengrassResourceDefinitionVersion:
+    Type: AWS::Greengrass::ResourceDefinitionVersion
+  AWSGreengrassSubscriptionDefinition:
+    Type: AWS::Greengrass::SubscriptionDefinition
+  AWSGreengrassSubscriptionDefinitionVersion:
+    Type: AWS::Greengrass::SubscriptionDefinitionVersion
+  AWSGroundStationConfig:
+    Type: AWS::GroundStation::Config
+  AWSGroundStationDataflowEndpointGroup:
+    Type: AWS::GroundStation::DataflowEndpointGroup
+  AWSGroundStationMissionProfile:
+    Type: AWS::GroundStation::MissionProfile
+  AWSGuardDutyDetector:
+    Type: AWS::GuardDuty::Detector
+  AWSGuardDutyFilter:
+    Type: AWS::GuardDuty::Filter
+  AWSGuardDutyIPSet:
+    Type: AWS::GuardDuty::IPSet
+  AWSGuardDutyMaster:
+    Type: AWS::GuardDuty::Master
+  AWSGuardDutyMember:
+    Type: AWS::GuardDuty::Member
+  AWSGuardDutyThreatIntelSet:
+    Type: AWS::GuardDuty::ThreatIntelSet
+  AWSIAMAccessKey:
+    Type: AWS::IAM::AccessKey
+  AWSIAMGroup:
+    Type: AWS::IAM::Group
+  AWSIAMInstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+  AWSIAMManagedPolicy:
+    Type: AWS::IAM::ManagedPolicy
+  AWSIAMPolicy:
+    Type: AWS::IAM::Policy
+  AWSIAMRole:
+    Type: AWS::IAM::Role
+  AWSIAMServiceLinkedRole:
+    Type: AWS::IAM::ServiceLinkedRole
+  AWSIAMUser:
+    Type: AWS::IAM::User
+  AWSIAMUserToGroupAddition:
+    Type: AWS::IAM::UserToGroupAddition
+  AWSImageBuilderComponent:
+    Type: AWS::ImageBuilder::Component
+  AWSImageBuilderDistributionConfiguration:
+    Type: AWS::ImageBuilder::DistributionConfiguration
+  AWSImageBuilderImagePipeline:
+    Type: AWS::ImageBuilder::ImagePipeline
+  AWSImageBuilderImageRecipe:
+    Type: AWS::ImageBuilder::ImageRecipe
+  AWSImageBuilderInfrastructureConfiguration:
+    Type: AWS::ImageBuilder::InfrastructureConfiguration
+  AWSInspectorAssessmentTarget:
+    Type: AWS::Inspector::AssessmentTarget
+  AWSInspectorAssessmentTemplate:
+    Type: AWS::Inspector::AssessmentTemplate
+  AWSInspectorResourceGroup:
+    Type: AWS::Inspector::ResourceGroup
+  AWSIoT1ClickDevice:
+    Type: AWS::IoT1Click::Device
+  AWSIoT1ClickPlacement:
+    Type: AWS::IoT1Click::Placement
+  AWSIoT1ClickProject:
+    Type: AWS::IoT1Click::Project
+  AWSIoTAnalyticsChannel:
+    Type: AWS::IoTAnalytics::Channel
+  AWSIoTAnalyticsDataset:
+    Type: AWS::IoTAnalytics::Dataset
+  AWSIoTAnalyticsDatastore:
+    Type: AWS::IoTAnalytics::Datastore
+  AWSIoTAnalyticsPipeline:
+    Type: AWS::IoTAnalytics::Pipeline
+  AWSIoTCertificate:
+    Type: AWS::IoT::Certificate
+  AWSIoTEventsDetectorModel:
+    Type: AWS::IoTEvents::DetectorModel
+  AWSIoTEventsInput:
+    Type: AWS::IoTEvents::Input
+  AWSIoTPolicy:
+    Type: AWS::IoT::Policy
+  AWSIoTPolicyPrincipalAttachment:
+    Type: AWS::IoT::PolicyPrincipalAttachment
+  AWSIoTThing:
+    Type: AWS::IoT::Thing
+  AWSIoTThingPrincipalAttachment:
+    Type: AWS::IoT::ThingPrincipalAttachment
+  AWSIoTThingsGraphFlowTemplate:
+    Type: AWS::IoTThingsGraph::FlowTemplate
+  AWSIoTTopicRule:
+    Type: AWS::IoT::TopicRule
+  AWSKMSAlias:
+    Type: AWS::KMS::Alias
+  AWSKMSKey:
+    Type: AWS::KMS::Key
+  AWSKinesisAnalyticsApplication:
+    Type: AWS::KinesisAnalytics::Application
+  AWSKinesisAnalyticsApplicationOutput:
+    Type: AWS::KinesisAnalytics::ApplicationOutput
+  AWSKinesisAnalyticsApplicationReferenceDataSource:
+    Type: AWS::KinesisAnalytics::ApplicationReferenceDataSource
+  AWSKinesisAnalyticsV2Application:
+    Type: AWS::KinesisAnalyticsV2::Application
+  AWSKinesisAnalyticsV2ApplicationCloudWatchLoggingOption:
+    Type: AWS::KinesisAnalyticsV2::ApplicationCloudWatchLoggingOption
+  AWSKinesisAnalyticsV2ApplicationOutput:
+    Type: AWS::KinesisAnalyticsV2::ApplicationOutput
+  AWSKinesisAnalyticsV2ApplicationReferenceDataSource:
+    Type: AWS::KinesisAnalyticsV2::ApplicationReferenceDataSource
+  AWSKinesisFirehoseDeliveryStream:
+    Type: AWS::KinesisFirehose::DeliveryStream
+  AWSKinesisStream:
+    Type: AWS::Kinesis::Stream
+  AWSKinesisStreamConsumer:
+    Type: AWS::Kinesis::StreamConsumer
+  AWSLakeFormationDataLakeSettings:
+    Type: AWS::LakeFormation::DataLakeSettings
+  AWSLakeFormationPermissions:
+    Type: AWS::LakeFormation::Permissions
+  AWSLakeFormationResource:
+    Type: AWS::LakeFormation::Resource
+  AWSLambdaAlias:
+    Type: AWS::Lambda::Alias
+  AWSLambdaEventInvokeConfig:
+    Type: AWS::Lambda::EventInvokeConfig
+  AWSLambdaEventSourceMapping:
+    Type: AWS::Lambda::EventSourceMapping
+  AWSLambdaFunction:
+    Type: AWS::Lambda::Function
+  AWSLambdaLayerVersion:
+    Type: AWS::Lambda::LayerVersion
+  AWSLambdaLayerVersionPermission:
+    Type: AWS::Lambda::LayerVersionPermission
+  AWSLambdaPermission:
+    Type: AWS::Lambda::Permission
+  AWSLambdaVersion:
+    Type: AWS::Lambda::Version
+  AWSLogsDestination:
+    Type: AWS::Logs::Destination
+  AWSLogsLogGroup:
+    Type: AWS::Logs::LogGroup
+  AWSLogsLogStream:
+    Type: AWS::Logs::LogStream
+  AWSLogsMetricFilter:
+    Type: AWS::Logs::MetricFilter
+  AWSLogsSubscriptionFilter:
+    Type: AWS::Logs::SubscriptionFilter
+  AWSMSKCluster:
+    Type: AWS::MSK::Cluster
+  AWSManagedBlockchainMember:
+    Type: AWS::ManagedBlockchain::Member
+  AWSManagedBlockchainNode:
+    Type: AWS::ManagedBlockchain::Node
+  AWSMediaConvertJobTemplate:
+    Type: AWS::MediaConvert::JobTemplate
+  AWSMediaConvertPreset:
+    Type: AWS::MediaConvert::Preset
+  AWSMediaConvertQueue:
+    Type: AWS::MediaConvert::Queue
+  AWSMediaLiveChannel:
+    Type: AWS::MediaLive::Channel
+  AWSMediaLiveInput:
+    Type: AWS::MediaLive::Input
+  AWSMediaLiveInputSecurityGroup:
+    Type: AWS::MediaLive::InputSecurityGroup
+  AWSMediaStoreContainer:
+    Type: AWS::MediaStore::Container
+  AWSNeptuneDBCluster:
+    Type: AWS::Neptune::DBCluster
+  AWSNeptuneDBClusterParameterGroup:
+    Type: AWS::Neptune::DBClusterParameterGroup
+  AWSNeptuneDBInstance:
+    Type: AWS::Neptune::DBInstance
+  AWSNeptuneDBParameterGroup:
+    Type: AWS::Neptune::DBParameterGroup
+  AWSNeptuneDBSubnetGroup:
+    Type: AWS::Neptune::DBSubnetGroup
+  AWSNetworkManagerCustomerGatewayAssociation:
+    Type: AWS::NetworkManager::CustomerGatewayAssociation
+  AWSNetworkManagerDevice:
+    Type: AWS::NetworkManager::Device
+  AWSNetworkManagerGlobalNetwork:
+    Type: AWS::NetworkManager::GlobalNetwork
+  AWSNetworkManagerLink:
+    Type: AWS::NetworkManager::Link
+  AWSNetworkManagerLinkAssociation:
+    Type: AWS::NetworkManager::LinkAssociation
+  AWSNetworkManagerSite:
+    Type: AWS::NetworkManager::Site
+  AWSNetworkManagerTransitGatewayRegistration:
+    Type: AWS::NetworkManager::TransitGatewayRegistration
+  AWSOpsWorksApp:
+    Type: AWS::OpsWorks::App
+  AWSOpsWorksCMServer:
+    Type: AWS::OpsWorksCM::Server
+  AWSOpsWorksElasticLoadBalancerAttachment:
+    Type: AWS::OpsWorks::ElasticLoadBalancerAttachment
+  AWSOpsWorksInstance:
+    Type: AWS::OpsWorks::Instance
+  AWSOpsWorksLayer:
+    Type: AWS::OpsWorks::Layer
+  AWSOpsWorksStack:
+    Type: AWS::OpsWorks::Stack
+  AWSOpsWorksUserProfile:
+    Type: AWS::OpsWorks::UserProfile
+  AWSOpsWorksVolume:
+    Type: AWS::OpsWorks::Volume
+  AWSPinpointADMChannel:
+    Type: AWS::Pinpoint::ADMChannel
+  AWSPinpointAPNSChannel:
+    Type: AWS::Pinpoint::APNSChannel
+  AWSPinpointAPNSSandboxChannel:
+    Type: AWS::Pinpoint::APNSSandboxChannel
+  AWSPinpointAPNSVoipChannel:
+    Type: AWS::Pinpoint::APNSVoipChannel
+  AWSPinpointAPNSVoipSandboxChannel:
+    Type: AWS::Pinpoint::APNSVoipSandboxChannel
+  AWSPinpointApp:
+    Type: AWS::Pinpoint::App
+  AWSPinpointApplicationSettings:
+    Type: AWS::Pinpoint::ApplicationSettings
+  AWSPinpointBaiduChannel:
+    Type: AWS::Pinpoint::BaiduChannel
+  AWSPinpointCampaign:
+    Type: AWS::Pinpoint::Campaign
+  AWSPinpointEmailChannel:
+    Type: AWS::Pinpoint::EmailChannel
+  AWSPinpointEmailConfigurationSet:
+    Type: AWS::PinpointEmail::ConfigurationSet
+  AWSPinpointEmailConfigurationSetEventDestination:
+    Type: AWS::PinpointEmail::ConfigurationSetEventDestination
+  AWSPinpointEmailDedicatedIpPool:
+    Type: AWS::PinpointEmail::DedicatedIpPool
+  AWSPinpointEmailIdentity:
+    Type: AWS::PinpointEmail::Identity
+  AWSPinpointEmailTemplate:
+    Type: AWS::Pinpoint::EmailTemplate
+  AWSPinpointEventStream:
+    Type: AWS::Pinpoint::EventStream
+  AWSPinpointGCMChannel:
+    Type: AWS::Pinpoint::GCMChannel
+  AWSPinpointPushTemplate:
+    Type: AWS::Pinpoint::PushTemplate
+  AWSPinpointSMSChannel:
+    Type: AWS::Pinpoint::SMSChannel
+  AWSPinpointSegment:
+    Type: AWS::Pinpoint::Segment
+  AWSPinpointSmsTemplate:
+    Type: AWS::Pinpoint::SmsTemplate
+  AWSPinpointVoiceChannel:
+    Type: AWS::Pinpoint::VoiceChannel
+  AWSQLDBLedger:
+    Type: AWS::QLDB::Ledger
+  AWSRAMResourceShare:
+    Type: AWS::RAM::ResourceShare
+  AWSRDSDBCluster:
+    Type: AWS::RDS::DBCluster
+  AWSRDSDBClusterParameterGroup:
+    Type: AWS::RDS::DBClusterParameterGroup
+  AWSRDSDBInstance:
+    Type: AWS::RDS::DBInstance
+  AWSRDSDBParameterGroup:
+    Type: AWS::RDS::DBParameterGroup
+  AWSRDSDBSecurityGroup:
+    Type: AWS::RDS::DBSecurityGroup
+  AWSRDSDBSecurityGroupIngress:
+    Type: AWS::RDS::DBSecurityGroupIngress
+  AWSRDSDBSubnetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+  AWSRDSEventSubscription:
+    Type: AWS::RDS::EventSubscription
+  AWSRDSOptionGroup:
+    Type: AWS::RDS::OptionGroup
+  AWSRedshiftCluster:
+    Type: AWS::Redshift::Cluster
+  AWSRedshiftClusterParameterGroup:
+    Type: AWS::Redshift::ClusterParameterGroup
+  AWSRedshiftClusterSecurityGroup:
+    Type: AWS::Redshift::ClusterSecurityGroup
+  AWSRedshiftClusterSecurityGroupIngress:
+    Type: AWS::Redshift::ClusterSecurityGroupIngress
+  AWSRedshiftClusterSubnetGroup:
+    Type: AWS::Redshift::ClusterSubnetGroup
+  AWSResourceGroupsGroup:
+    Type: AWS::ResourceGroups::Group
+  AWSRoboMakerFleet:
+    Type: AWS::RoboMaker::Fleet
+  AWSRoboMakerRobot:
+    Type: AWS::RoboMaker::Robot
+  AWSRoboMakerRobotApplication:
+    Type: AWS::RoboMaker::RobotApplication
+  AWSRoboMakerRobotApplicationVersion:
+    Type: AWS::RoboMaker::RobotApplicationVersion
+  AWSRoboMakerSimulationApplication:
+    Type: AWS::RoboMaker::SimulationApplication
+  AWSRoboMakerSimulationApplicationVersion:
+    Type: AWS::RoboMaker::SimulationApplicationVersion
+  AWSRoute53HealthCheck:
+    Type: AWS::Route53::HealthCheck
+  AWSRoute53HostedZone:
+    Type: AWS::Route53::HostedZone
+  AWSRoute53RecordSet:
+    Type: AWS::Route53::RecordSet
+  AWSRoute53RecordSetGroup:
+    Type: AWS::Route53::RecordSetGroup
+  AWSRoute53ResolverResolverEndpoint:
+    Type: AWS::Route53Resolver::ResolverEndpoint
+  AWSRoute53ResolverResolverRule:
+    Type: AWS::Route53Resolver::ResolverRule
+  AWSRoute53ResolverResolverRuleAssociation:
+    Type: AWS::Route53Resolver::ResolverRuleAssociation
+  AWSS3AccessPoint:
+    Type: AWS::S3::AccessPoint
+  AWSS3Bucket:
+    Type: AWS::S3::Bucket
+  AWSS3BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+  AWSSDBDomain:
+    Type: AWS::SDB::Domain
+  AWSSESConfigurationSet:
+    Type: AWS::SES::ConfigurationSet
+  AWSSESConfigurationSetEventDestination:
+    Type: AWS::SES::ConfigurationSetEventDestination
+  AWSSESReceiptFilter:
+    Type: AWS::SES::ReceiptFilter
+  AWSSESReceiptRule:
+    Type: AWS::SES::ReceiptRule
+  AWSSESReceiptRuleSet:
+    Type: AWS::SES::ReceiptRuleSet
+  AWSSESTemplate:
+    Type: AWS::SES::Template
+  AWSSNSSubscription:
+    Type: AWS::SNS::Subscription
+  AWSSNSTopic:
+    Type: AWS::SNS::Topic
+  AWSSNSTopicPolicy:
+    Type: AWS::SNS::TopicPolicy
+  AWSSQSQueue:
+    Type: AWS::SQS::Queue
+  AWSSQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+  AWSSSMAssociation:
+    Type: AWS::SSM::Association
+  AWSSSMDocument:
+    Type: AWS::SSM::Document
+  AWSSSMMaintenanceWindow:
+    Type: AWS::SSM::MaintenanceWindow
+  AWSSSMMaintenanceWindowTarget:
+    Type: AWS::SSM::MaintenanceWindowTarget
+  AWSSSMMaintenanceWindowTask:
+    Type: AWS::SSM::MaintenanceWindowTask
+  AWSSSMParameter:
+    Type: AWS::SSM::Parameter
+  AWSSSMPatchBaseline:
+    Type: AWS::SSM::PatchBaseline
+  AWSSSMResourceDataSync:
+    Type: AWS::SSM::ResourceDataSync
+  AWSSageMakerCodeRepository:
+    Type: AWS::SageMaker::CodeRepository
+  AWSSageMakerEndpoint:
+    Type: AWS::SageMaker::Endpoint
+  AWSSageMakerEndpointConfig:
+    Type: AWS::SageMaker::EndpointConfig
+  AWSSageMakerModel:
+    Type: AWS::SageMaker::Model
+  AWSSageMakerNotebookInstance:
+    Type: AWS::SageMaker::NotebookInstance
+  AWSSageMakerNotebookInstanceLifecycleConfig:
+    Type: AWS::SageMaker::NotebookInstanceLifecycleConfig
+  AWSSageMakerWorkteam:
+    Type: AWS::SageMaker::Workteam
+  AWSSecretsManagerResourcePolicy:
+    Type: AWS::SecretsManager::ResourcePolicy
+  AWSSecretsManagerRotationSchedule:
+    Type: AWS::SecretsManager::RotationSchedule
+  AWSSecretsManagerSecret:
+    Type: AWS::SecretsManager::Secret
+  AWSSecretsManagerSecretTargetAttachment:
+    Type: AWS::SecretsManager::SecretTargetAttachment
+  AWSSecurityHubHub:
+    Type: AWS::SecurityHub::Hub
+  AWSServiceCatalogAcceptedPortfolioShare:
+    Type: AWS::ServiceCatalog::AcceptedPortfolioShare
+  AWSServiceCatalogCloudFormationProduct:
+    Type: AWS::ServiceCatalog::CloudFormationProduct
+  AWSServiceCatalogCloudFormationProvisionedProduct:
+    Type: AWS::ServiceCatalog::CloudFormationProvisionedProduct
+  AWSServiceCatalogLaunchNotificationConstraint:
+    Type: AWS::ServiceCatalog::LaunchNotificationConstraint
+  AWSServiceCatalogLaunchRoleConstraint:
+    Type: AWS::ServiceCatalog::LaunchRoleConstraint
+  AWSServiceCatalogLaunchTemplateConstraint:
+    Type: AWS::ServiceCatalog::LaunchTemplateConstraint
+  AWSServiceCatalogPortfolio:
+    Type: AWS::ServiceCatalog::Portfolio
+  AWSServiceCatalogPortfolioPrincipalAssociation:
+    Type: AWS::ServiceCatalog::PortfolioPrincipalAssociation
+  AWSServiceCatalogPortfolioProductAssociation:
+    Type: AWS::ServiceCatalog::PortfolioProductAssociation
+  AWSServiceCatalogPortfolioShare:
+    Type: AWS::ServiceCatalog::PortfolioShare
+  AWSServiceCatalogResourceUpdateConstraint:
+    Type: AWS::ServiceCatalog::ResourceUpdateConstraint
+  AWSServiceCatalogStackSetConstraint:
+    Type: AWS::ServiceCatalog::StackSetConstraint
+  AWSServiceCatalogTagOption:
+    Type: AWS::ServiceCatalog::TagOption
+  AWSServiceCatalogTagOptionAssociation:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+  AWSServiceDiscoveryHttpNamespace:
+    Type: AWS::ServiceDiscovery::HttpNamespace
+  AWSServiceDiscoveryInstance:
+    Type: AWS::ServiceDiscovery::Instance
+  AWSServiceDiscoveryPrivateDnsNamespace:
+    Type: AWS::ServiceDiscovery::PrivateDnsNamespace
+  AWSServiceDiscoveryPublicDnsNamespace:
+    Type: AWS::ServiceDiscovery::PublicDnsNamespace
+  AWSServiceDiscoveryService:
+    Type: AWS::ServiceDiscovery::Service
+  AWSStepFunctionsActivity:
+    Type: AWS::StepFunctions::Activity
+  AWSStepFunctionsStateMachine:
+    Type: AWS::StepFunctions::StateMachine
+  AWSSyntheticsCanary:
+    Type: AWS::Synthetics::Canary
+  AWSTransferServer:
+    Type: AWS::Transfer::Server
+  AWSTransferUser:
+    Type: AWS::Transfer::User
+  AWSWAFByteMatchSet:
+    Type: AWS::WAF::ByteMatchSet
+  AWSWAFIPSet:
+    Type: AWS::WAF::IPSet
+  AWSWAFRegionalByteMatchSet:
+    Type: AWS::WAFRegional::ByteMatchSet
+  AWSWAFRegionalGeoMatchSet:
+    Type: AWS::WAFRegional::GeoMatchSet
+  AWSWAFRegionalIPSet:
+    Type: AWS::WAFRegional::IPSet
+  AWSWAFRegionalRateBasedRule:
+    Type: AWS::WAFRegional::RateBasedRule
+  AWSWAFRegionalRegexPatternSet:
+    Type: AWS::WAFRegional::RegexPatternSet
+  AWSWAFRegionalRule:
+    Type: AWS::WAFRegional::Rule
+  AWSWAFRegionalSizeConstraintSet:
+    Type: AWS::WAFRegional::SizeConstraintSet
+  AWSWAFRegionalSqlInjectionMatchSet:
+    Type: AWS::WAFRegional::SqlInjectionMatchSet
+  AWSWAFRegionalWebACL:
+    Type: AWS::WAFRegional::WebACL
+  AWSWAFRegionalWebACLAssociation:
+    Type: AWS::WAFRegional::WebACLAssociation
+  AWSWAFRegionalXssMatchSet:
+    Type: AWS::WAFRegional::XssMatchSet
+  AWSWAFRule:
+    Type: AWS::WAF::Rule
+  AWSWAFSizeConstraintSet:
+    Type: AWS::WAF::SizeConstraintSet
+  AWSWAFSqlInjectionMatchSet:
+    Type: AWS::WAF::SqlInjectionMatchSet
+  AWSWAFWebACL:
+    Type: AWS::WAF::WebACL
+  AWSWAFXssMatchSet:
+    Type: AWS::WAF::XssMatchSet
+  AWSWAFv2IPSet:
+    Type: AWS::WAFv2::IPSet
+  AWSWAFv2RegexPatternSet:
+    Type: AWS::WAFv2::RegexPatternSet
+  AWSWAFv2RuleGroup:
+    Type: AWS::WAFv2::RuleGroup
+  AWSWAFv2WebACL:
+    Type: AWS::WAFv2::WebACL
+  AWSWAFv2WebACLAssociation:
+    Type: AWS::WAFv2::WebACLAssociation
+  AWSWorkSpacesWorkspace:
+    Type: AWS::WorkSpaces::Workspace
+  AlexaASKSkill:
+    Type: Alexa::ASK::Skill
